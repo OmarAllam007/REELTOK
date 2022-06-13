@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A450925B2EA45461C4DD1A /* Pods_reeltik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1AB25C8B7A56819CF3702B /* Pods_reeltik.framework */; };
 		95F673232850BA9900E40D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673222850BA9900E40D33 /* AppDelegate.swift */; };
 		95F673252850BA9900E40D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673242850BA9900E40D33 /* SceneDelegate.swift */; };
-		95F673272850BA9900E40D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673262850BA9900E40D33 /* ViewController.swift */; };
+		95F673272850BA9900E40D33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673262850BA9900E40D33 /* HomeViewController.swift */; };
 		95F6732C2850BA9A00E40D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F6732B2850BA9A00E40D33 /* Assets.xcassets */; };
 		95F6732F2850BA9A00E40D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F6732D2850BA9A00E40D33 /* LaunchScreen.storyboard */; };
+		95F6733F2850C08D00E40D33 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6733E2850C08D00E40D33 /* ExploreViewController.swift */; };
+		95F673422850C09D00E40D33 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673412850C09D00E40D33 /* CameraViewController.swift */; };
+		95F673442850C0AF00E40D33 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673432850C0AF00E40D33 /* NotificationsViewController.swift */; };
+		95F673462850C0E500E40D33 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673452850C0E500E40D33 /* ProfileViewController.swift */; };
+		95F673482850CEC800E40D33 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673472850CEC800E40D33 /* SignUpViewController.swift */; };
+		95F6734A2850CEEB00E40D33 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673492850CEEB00E40D33 /* SignInViewController.swift */; };
+		95F6734C2850CF2700E40D33 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6734B2850CF2700E40D33 /* UserListViewController.swift */; };
+		95F6734E2850CF3B00E40D33 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6734D2850CF3B00E40D33 /* SettingsViewController.swift */; };
+		95F673542850CF9900E40D33 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673532850CF9900E40D33 /* PostViewController.swift */; };
+		95F673562850CFAE00E40D33 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673552850CFAE00E40D33 /* APICaller.swift */; };
+		95F673582850CFBE00E40D33 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673572850CFBE00E40D33 /* StorageManager.swift */; };
+		95F6735A2850CFD100E40D33 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F673592850CFD100E40D33 /* DBManager.swift */; };
+		95F6735C2850CFDA00E40D33 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6735B2850CFDA00E40D33 /* AuthManager.swift */; };
+		95F6735E2850CFF600E40D33 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6735D2850CFF600E40D33 /* HapticsManager.swift */; };
+		95F673602850D90500E40D33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F6735F2850D90500E40D33 /* GoogleService-Info.plist */; };
+		95F6736328527DBB00E40D33 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6736228527DBB00E40D33 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC28ED9A50D77902BAD8D25 /* Pods-reeltik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reeltik.debug.xcconfig"; path = "Target Support Files/Pods-reeltik/Pods-reeltik.debug.xcconfig"; sourceTree = "<group>"; };
 		95F6731F2850BA9900E40D33 /* reeltik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reeltik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F673222850BA9900E40D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F673242850BA9900E40D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95F673262850BA9900E40D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95F673262850BA9900E40D33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		95F6732B2850BA9A00E40D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F6732E2850BA9A00E40D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95F673302850BA9A00E40D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F6733E2850C08D00E40D33 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		95F673412850C09D00E40D33 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		95F673432850C0AF00E40D33 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		95F673452850C0E500E40D33 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		95F673472850CEC800E40D33 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		95F673492850CEEB00E40D33 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		95F6734B2850CF2700E40D33 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		95F6734D2850CF3B00E40D33 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		95F673532850CF9900E40D33 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		95F673552850CFAE00E40D33 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		95F673572850CFBE00E40D33 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		95F673592850CFD100E40D33 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		95F6735B2850CFDA00E40D33 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		95F6735D2850CFF600E40D33 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		95F6735F2850D90500E40D33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95F6736228527DBB00E40D33 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BC1AB25C8B7A56819CF3702B /* Pods_reeltik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reeltik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70C7ED90FBEE1D36AFB38C3 /* Pods-reeltik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reeltik.release.xcconfig"; path = "Target Support Files/Pods-reeltik/Pods-reeltik.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A450925B2EA45461C4DD1A /* Pods_reeltik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,8 @@
 			children = (
 				95F673212850BA9900E40D33 /* reeltik */,
 				95F673202850BA9900E40D33 /* Products */,
+				C4A0C0C52503DF3CB5EC9A82 /* Pods */,
+				CA75E9D3007F4B7B9E4885EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,127 @@
 		95F673212850BA9900E40D33 /* reeltik */ = {
 			isa = PBXGroup;
 			children = (
-				95F673222850BA9900E40D33 /* AppDelegate.swift */,
-				95F673242850BA9900E40D33 /* SceneDelegate.swift */,
-				95F673262850BA9900E40D33 /* ViewController.swift */,
-				95F6732B2850BA9A00E40D33 /* Assets.xcassets */,
-				95F6732D2850BA9A00E40D33 /* LaunchScreen.storyboard */,
+				95F6733B2850BFC100E40D33 /* Views */,
+				95F6733A2850BFA000E40D33 /* Managers */,
+				95F673392850BF9B00E40D33 /* Models */,
+				95F673382850BF9100E40D33 /* ViewModels */,
+				95F673372850BF8600E40D33 /* Controllers */,
+				95F673362850BF7D00E40D33 /* Resources */,
 				95F673302850BA9A00E40D33 /* Info.plist */,
 			);
 			path = reeltik;
+			sourceTree = "<group>";
+		};
+		95F673362850BF7D00E40D33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95F6735F2850D90500E40D33 /* GoogleService-Info.plist */,
+				95F6732B2850BA9A00E40D33 /* Assets.xcassets */,
+				95F673222850BA9900E40D33 /* AppDelegate.swift */,
+				95F673242850BA9900E40D33 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95F673372850BF8600E40D33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95F6733D2850C05C00E40D33 /* Main */,
+				95F6733C2850C05900E40D33 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		95F673382850BF9100E40D33 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95F673392850BF9B00E40D33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95F6733A2850BFA000E40D33 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				95F673552850CFAE00E40D33 /* APICaller.swift */,
+				95F673572850CFBE00E40D33 /* StorageManager.swift */,
+				95F673592850CFD100E40D33 /* DBManager.swift */,
+				95F6735B2850CFDA00E40D33 /* AuthManager.swift */,
+				95F6735D2850CFF600E40D33 /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		95F6733B2850BFC100E40D33 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95F673522850CF7D00E40D33 /* Others */,
+				95F673512850CF5E00E40D33 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95F6733C2850C05900E40D33 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				95F6733E2850C08D00E40D33 /* ExploreViewController.swift */,
+				95F673412850C09D00E40D33 /* CameraViewController.swift */,
+				95F673262850BA9900E40D33 /* HomeViewController.swift */,
+				95F673432850C0AF00E40D33 /* NotificationsViewController.swift */,
+				95F673452850C0E500E40D33 /* ProfileViewController.swift */,
+				95F6736228527DBB00E40D33 /* TabBarViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		95F6733D2850C05C00E40D33 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				95F673472850CEC800E40D33 /* SignUpViewController.swift */,
+				95F673492850CEEB00E40D33 /* SignInViewController.swift */,
+				95F6734B2850CF2700E40D33 /* UserListViewController.swift */,
+				95F6734D2850CF3B00E40D33 /* SettingsViewController.swift */,
+				95F673532850CF9900E40D33 /* PostViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		95F673512850CF5E00E40D33 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				95F6732D2850BA9A00E40D33 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		95F673522850CF7D00E40D33 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C4A0C0C52503DF3CB5EC9A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CC28ED9A50D77902BAD8D25 /* Pods-reeltik.debug.xcconfig */,
+				D70C7ED90FBEE1D36AFB38C3 /* Pods-reeltik.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA75E9D3007F4B7B9E4885EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC1AB25C8B7A56819CF3702B /* Pods_reeltik.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95F673332850BA9A00E40D33 /* Build configuration list for PBXNativeTarget "reeltik" */;
 			buildPhases = (
+				88A48F406E7C4BA6A3762D4B /* [CP] Check Pods Manifest.lock */,
 				95F6731B2850BA9900E40D33 /* Sources */,
 				95F6731C2850BA9900E40D33 /* Frameworks */,
 				95F6731D2850BA9900E40D33 /* Resources */,
+				3CFDDC4306E75920E418C453 /* [CP] Embed Pods Frameworks */,
+				95F673612850DC3A00E40D33 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,17 +279,92 @@
 			files = (
 				95F6732F2850BA9A00E40D33 /* LaunchScreen.storyboard in Resources */,
 				95F6732C2850BA9A00E40D33 /* Assets.xcassets in Resources */,
+				95F673602850D90500E40D33 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CFDDC4306E75920E418C453 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reeltik/Pods-reeltik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reeltik/Pods-reeltik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reeltik/Pods-reeltik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A48F406E7C4BA6A3762D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reeltik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F673612850DC3A00E40D33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95F6731B2850BA9900E40D33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F673272850BA9900E40D33 /* ViewController.swift in Sources */,
+				95F6735E2850CFF600E40D33 /* HapticsManager.swift in Sources */,
+				95F6733F2850C08D00E40D33 /* ExploreViewController.swift in Sources */,
+				95F673422850C09D00E40D33 /* CameraViewController.swift in Sources */,
+				95F6734E2850CF3B00E40D33 /* SettingsViewController.swift in Sources */,
+				95F6736328527DBB00E40D33 /* TabBarViewController.swift in Sources */,
+				95F673562850CFAE00E40D33 /* APICaller.swift in Sources */,
+				95F673542850CF9900E40D33 /* PostViewController.swift in Sources */,
+				95F673482850CEC800E40D33 /* SignUpViewController.swift in Sources */,
+				95F673272850BA9900E40D33 /* HomeViewController.swift in Sources */,
+				95F6735C2850CFDA00E40D33 /* AuthManager.swift in Sources */,
+				95F673442850C0AF00E40D33 /* NotificationsViewController.swift in Sources */,
+				95F6734C2850CF2700E40D33 /* UserListViewController.swift in Sources */,
+				95F6734A2850CEEB00E40D33 /* SignInViewController.swift in Sources */,
+				95F6735A2850CFD100E40D33 /* DBManager.swift in Sources */,
+				95F673462850C0E500E40D33 /* ProfileViewController.swift in Sources */,
+				95F673582850CFBE00E40D33 /* StorageManager.swift in Sources */,
 				95F673232850BA9900E40D33 /* AppDelegate.swift in Sources */,
 				95F673252850BA9900E40D33 /* SceneDelegate.swift in Sources */,
 			);
@@ -187,7 +417,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -270,6 +500,7 @@
 		};
 		95F673342850BA9A00E40D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC28ED9A50D77902BAD8D25 /* Pods-reeltik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +530,7 @@
 		};
 		95F673352850BA9A00E40D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70C7ED90FBEE1D36AFB38C3 /* Pods-reeltik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+framework module Pods_reeltik {
+  umbrella header "Pods-reeltik-umbrella.h"
+
+  export *
+  module * { export * }
+}
